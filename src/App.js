@@ -9,14 +9,14 @@ function App() {
   return (
     <Switch>
       <Route exact path="/">
+        <main className="container">
+          <h1>Library Catalog</h1>
+        </main>
         <Home />
       </Route>
 
       <Route exact path="/books" >
-        <main className="container">
-          <h1>Library Catalog</h1>
-          <BookList />
-        </main>
+        <BookList />
       </Route>
 
       <Route path="/books/:id" >

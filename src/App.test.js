@@ -11,5 +11,3 @@ it('renders a welcome message when signed out', async () => {
 
   await screen.findByText('Library Catalog');
 });
-
-// COMMENT
